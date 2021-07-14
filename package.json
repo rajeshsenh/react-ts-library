@@ -35,7 +35,7 @@
   "lint-staged": {
     "src/**/*.ts": [
       "prettier --write",
-      "eslint --fix **/**.ts",
+      "eslint --fix 'src/**/**.ts'",
       "git add"
     ]
   },
